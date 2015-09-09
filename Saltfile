@@ -1,0 +1,8 @@
+salt-ssh:
+    config_dir: etc/salt
+    max_procs: 30
+    wipe_ssh: True
+    extra_filerefs:
+      - salt://redis/map.jinja
+      - salt://sensu/pillar_map.jinja
+      - salt://sensu/service_map.jinja

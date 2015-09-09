@@ -1,0 +1,27 @@
+moni:
+    host: 192.168.60.4
+    user: vagrant
+    passwd: vagrant
+    port: 22
+    sudo: true
+
+client1:
+    host: 192.168.60.5
+    user: vagrant
+    passwd: vagrant
+    port: 22
+    sudo: true
+
+client2:
+    host: 192.168.60.6
+    user: vagrant
+    passwd: vagrant
+    port: 22
+    sudo: true
+
+client3:
+    host: 192.168.60.7
+    user: vagrant
+    passwd: vagrant
+    port: 22
+    sudo: true
