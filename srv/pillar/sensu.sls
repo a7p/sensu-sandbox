@@ -64,5 +64,5 @@ sensu:
   uchiwa:
     sites:
       site1:
-        user: bobby
+        user: admin
         password: secret
